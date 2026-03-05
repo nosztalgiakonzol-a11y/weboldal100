@@ -1909,7 +1909,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Space Grotesk", sans-serif; }
   <script>
     (() => {
       const lang = new URLSearchParams(window.location.search).get("lang");
-      if (lang !== "ro" && lang !== "rs") return;
+      if (lang !== "ro" && lang !== "rs" && lang !== "sk") return;
 
       const translations = {
         ro: {
@@ -1930,6 +1930,26 @@ h1, h2, h3, h4, h5, h6 { font-family: "Space Grotesk", sans-serif; }
           "18+ | A szerencsejáték függőséget okozhat. Játssz felelősen!": "18+ | Jocurile de noroc pot crea dependență. Joacă responsabil!",
           "Notifications (F8)": "Notificări (F8)",
           "Notifications alt+T": "Notificări alt+T",
+          logoSuffix: "logo"
+        },
+        sk: {
+          "Támogatott irodák": "Podporované stávkové kancelárie",
+          "Ajánlott fogadóirodák": "Odporúčané stávkové kancelárie",
+          "az arbitrázshoz": "pre arbitráž",
+          "Ezeket a fogadóirodákat használjuk napi szinten az arbitrázs fogadásokhoz.": "Tieto stávkové kancelárie používame denne na arbitrážne stávky.",
+          "Nem ismeretlen oldalak, hanem nemzetközileg működő, engedéllyel rendelkező szolgáltatók.": "Nie sú to neznáme stránky, ale medzinárodne pôsobiaci licencovaní poskytovatelia.",
+          "Valódi működési háttér": "Reálne prevádzkové zázemie",
+          "Több országban jelenlévő platformok": "Platformy dostupné vo viacerých krajinách",
+          "Stabil be- és kifizetési rendszer": "Stabilný systém vkladov a výberov",
+          "A közösségünk által aktívan használt irodák": "Kancelárie aktívne používané našou komunitou",
+          "Az itt szereplő oldalak az Arbitrázs rendszerrel kompatibilisek és teszteltek.": "Tu uvedené stránky sú kompatibilné a otestované s arbitrážnym systémom.",
+          "Fogadóirodák": "Stávkové kancelárie",
+          "Regisztráció": "Registrácia",
+          "ÚJ": "NOVÉ",
+          "KÓD": "KÓD",
+          "18+ | A szerencsejáték függőséget okozhat. Játssz felelősen!": "18+ | Hazardné hry môžu spôsobiť závislosť. Hraj zodpovedne!",
+          "Notifications (F8)": "Notifikácie (F8)",
+          "Notifications alt+T": "Notifikácie alt+T",
           logoSuffix: "logo"
         },
         rs: {
